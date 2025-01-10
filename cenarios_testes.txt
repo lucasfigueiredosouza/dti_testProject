@@ -1,0 +1,14 @@
+Cenário 1: 
+- Dado que o úsuario não informa o email e não informa o password
+- Quando o usúario clicar em Sign in
+- Então o sistema deve mostrar a mensagem "An email address required"
+
+Cenário 2: 
+- Dado que o úsuario informa o email mas não informa o password
+- Quando o usúario clicar em Sign in
+- Então o sistema deve mostrar a mensagem "Password is required"
+
+Cenário 3: 
+- Dado que o úsuario não informa nem email mas informa o password
+- Quando o usúario clicar em Sign in
+- Então o sistema deve mostrar a mensagem "An email address required"
